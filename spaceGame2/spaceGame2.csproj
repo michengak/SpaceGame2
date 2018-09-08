@@ -57,5 +57,11 @@
     <Content Include="Classes\Classes.sln" />
     <Content Include="Classes\Classes\Classes.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Engine\Engine.csproj">
+      <Project>{5FEB5155-FC3F-466D-AF6E-6EA31EEB23CE}</Project>
+      <Name>Engine</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

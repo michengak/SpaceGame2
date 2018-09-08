@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Engine.models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace spaceGame2
     {
         static void Main(string[] args)
         {
+
+          Player.Player ();
         }
     }
 }

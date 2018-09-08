@@ -40,14 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\ItemFactory.cs" />
+    <Compile Include="Factories\WorldFactory.cs" />
     <Compile Include="Models\GameOver.cs" />
     <Compile Include="Models\Location.cs" />
-    <Compile Include="Models\Menuitems.cs" />
+    <Compile Include="Models\GameItem.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Ships.cs" />
     <Compile Include="Models\Startgame.cs" />
     <Compile Include="Models\Trader.cs" />
+    <Compile Include="Models\World.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="travelSpeed.cs" />
     <Compile Include="ViewModels\GameSession.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
